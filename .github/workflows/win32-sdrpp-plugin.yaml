@@ -8,7 +8,7 @@ jobs:
       - name: Repo checkout
         uses: actions/checkout@v4
         with:
-          repo: 'cropinghigh/sdrpp-vhfvoiceradio'
+          repository: 'cropinghigh/sdrpp-vhfvoiceradio'
 
       - name: Create Build Environment
         run: dir ; cmake -E make_directory build ; dir
